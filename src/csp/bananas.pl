@@ -20,11 +20,11 @@ triangle([B | Bs], Ds):-
 bananas(Bs):-
 	Bs = [_A, _B, _C, _D],
 	Bs ins 1..10,
-    triangle(Bs, Ds), 
-    all_different(Ds),
+    	triangle(Bs, Ds), 
+    	all_different(Ds),
 	labeling([], Bs).
 
 % 4)
 main(Solns) :-
-    findall(Bs,bananas(Bs),List),
-    length(List,Solns).
+    	findall(Bs,bananas(Bs),List),
+    	length(List,Solns).
