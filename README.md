@@ -1,1 +1,3 @@
-# PrologCode
+# Code Snippets
+
+## Rust, Groovy, Haskell...
