@@ -1,3 +1,0 @@
-# Code Snippets
-
-## Scala, Groovy, Prolog, Haskell...
